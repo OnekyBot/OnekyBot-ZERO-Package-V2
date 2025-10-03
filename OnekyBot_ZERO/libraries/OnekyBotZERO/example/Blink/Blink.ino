@@ -1,8 +1,6 @@
 #include<OnekyBot_ZERO.h>
 
 void setup() {
-  Oneky_Setup();
-
   pinMode(PC13, OUTPUT);
 }
 
