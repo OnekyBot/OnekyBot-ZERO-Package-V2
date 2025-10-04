@@ -39,7 +39,7 @@ genericSTM32F103C.menu.device_variant.STM32F103CB.upload.maximum_data_size=20480
 
 #---------------------------- UPLOAD METHODS ---------------------------
 
-genericSTM32F103C.menu.upload_method.DFUUploadMethod=STM32duino bootloader
+genericSTM32F103C.menu.upload_method.DFUUploadMethod=Maple DFU(USB)
 genericSTM32F103C.menu.upload_method.DFUUploadMethod.upload.protocol=maple_dfu
 genericSTM32F103C.menu.upload_method.DFUUploadMethod.upload.tool=maple_upload
 genericSTM32F103C.menu.upload_method.DFUUploadMethod.build.upload_flags=-DSERIAL_USB -DGENERIC_BOOTLOADER
